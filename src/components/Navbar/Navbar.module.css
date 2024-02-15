@@ -1,0 +1,40 @@
+nav {
+    background-color: aquamarine;
+    & a{
+        color: blueviolet;
+        text-decoration: none;
+    }
+    & .container{
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    & .nav_con{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        & ul{
+            display: flex;
+            list-style: none;
+            & li{
+                margin: 0 35px;
+            }   
+        }
+        & .button{
+            width: 100px;
+            height: 35px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+    }   
+        
+        
+
+    
+}
